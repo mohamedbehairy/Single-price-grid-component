@@ -1,0 +1,122 @@
+{
+  "Demo board": {
+    "name": "Demo board",
+    "statuses": [
+      "Backlog",
+      "To do",
+      "In progress",
+      "Review",
+      "Done"
+    ],
+    "allowedSources": {
+      "Backlog": [
+        "To do"
+      ],
+      "To do": [
+        "Backlog",
+        "In progress"
+      ],
+      "In progress": [
+        "Backlog",
+        "To do",
+        "Review"
+      ],
+      "Review": [
+        "In progress"
+      ],
+      "Done": [
+        "Review"
+      ]
+    },
+    "tags": [
+      "Epic",
+      "Story",
+      "Task",
+      "Subtask",
+      "Bug",
+      "Blocked"
+    ],
+    "tasks": [
+      {
+        "id": "f037e9b4ec0d417f9c69dc8929f69700",
+        "title": "Shareable Kanban board",
+        "status": "In progress",
+        "tags": [
+          "Story"
+        ],
+        "priority": 3,
+        "description": "Using shareable Kanban board",
+        "assignees": [
+          "Me",
+          "Team"
+        ],
+        "dependOn": [
+          "f037e9b4ec0d417f9c69dc8929f69701",
+          "f037e9b4ec0d417f9c69dc8929f69703",
+          "f037e9b4ec0d417f9c69dc8929f69704"
+        ]
+      },
+      {
+        "id": "f037e9b4ec0d417f9c69dc8929f69701",
+        "title": "Install the \"Shareable Kanban board\" extension",
+        "status": "Done",
+        "tags": [
+          "Task"
+        ],
+        "priority": 5,
+        "description": "Shareable Kanban board is available inside of Visual Studio Code",
+        "assignees": [
+          "Me"
+        ],
+        "comments": [
+          {
+            "by": "Me",
+            "on": "2021-05-05T00:00:00.000Z",
+            "text": "An amazing product"
+          }
+        ]
+      },
+      {
+        "id": "f037e9b4ec0d417f9c69dc8929f69702",
+        "title": "Learn advanced use of the shareable Kanban board",
+        "status": "Backlog",
+        "tags": [
+          "Task"
+        ],
+        "priority": 2,
+        "description": "At the end I will know how to use efficiently this board",
+        "assignees": [
+          "Me"
+        ]
+      },
+      {
+        "id": "f037e9b4ec0d417f9c69dc8929f69703",
+        "title": "Learn using the shareable Kanban board",
+        "status": "In progress",
+        "tags": [
+          "Task"
+        ],
+        "priority": 3,
+        "description": "At the end I will know how to use efficiently this board",
+        "assignees": [
+          "Me",
+          "Team"
+        ]
+      },
+      {
+        "id": "f037e9b4ec0d417f9c69dc8929f69704",
+        "title": "Learn to use the filtering of tasks in shareable Kanban board",
+        "status": "To do",
+        "tags": [
+          "Task"
+        ],
+        "priority": 4,
+        "description": "At the end I will know how to find tickets according to different criterion:\n* assignee:\n  * assignee: partial user name\n* comment:\n  * comment: partial phrase\n* dependency:\n  * dependency: partial ticket name\n* done:\n  * done: today\n  * done: 3d\n* due:\n  * due: tomorrow\n  * due: 10d\n* priority:\n  * priority: priority_name\n* progress:\n  * progress: 25%\n  * progress: ?%\n* status:\n  * status: status name\n* tag:\n  * tag: partial tag name\n\nAlso that each criterion makes the selection even finer.",
+        "assignees": [
+          "Me",
+          "Team"
+        ]
+      }
+    ]
+  }
+}

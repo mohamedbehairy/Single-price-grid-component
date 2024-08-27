@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: Karla;
+  font-size: 16px;
+}
+
+.home h1 {
+  color: hsl(179, 62%, 43%);
+}
+.home h4 {
+  color: hsl(71, 73%, 54%);
+}
+.home p {
+  color: hsl(218, 22%, 67%);
+}
+.about {
+  color: #fff;
+}
+.about button {
+  background-color: hsl(71, 73%, 54%);
+  color: #fff;
+  transition: all 0.4s;
+  width: 80%;
+}
+.about button:hover {
+  background-color: hsl(71, 90%, 58%);
+  color: #000;
+}
+.price .one {
+  font-weight: 600;
+}
+.price .two {
+  color: hsl(218, 22%, 67%);
+  position: relative;
+  top: -10px;
+  padding-left: 10px;
+}
+.price p {
+  color: #eaeaea;
+}
+.price {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.WhyUs {
+  background-color: hsl(179, 57%, 49%);
+}
+.WhyUs pre {
+  color: hsl(218, 100%, 92%);
+}
